@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="6" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-25T20:37:45 IST" name="Default suite" finished-at="2023-04-25T20:38:23 IST" duration-ms="38332">
+    <groups>
+    </groups>
+    <test started-at="2023-04-25T20:37:45 IST" name="Default test" finished-at="2023-04-25T20:38:23 IST" duration-ms="38332">
+      <class name="Cart.UpdateProductsInCart">
+        <test-method is-config="true" signature="BS()[pri:0, instance:Cart.UpdateProductsInCart@5db99216]" started-at="2023-04-25T20:37:45 IST" name="BS" finished-at="2023-04-25T20:37:45 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS -->
+        <test-method is-config="true" signature="BT()[pri:0, instance:Cart.UpdateProductsInCart@5db99216]" started-at="2023-04-25T20:37:45 IST" name="BT" finished-at="2023-04-25T20:37:45 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BT -->
+        <test-method is-config="true" signature="BC()[pri:0, instance:Cart.UpdateProductsInCart@5db99216]" started-at="2023-04-25T20:37:45 IST" name="BC" finished-at="2023-04-25T20:37:48 IST" duration-ms="3378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:Cart.UpdateProductsInCart@5db99216]" started-at="2023-04-25T20:37:48 IST" name="BM" finished-at="2023-04-25T20:37:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="UpdateProductsInCartTest()[pri:0, instance:Cart.UpdateProductsInCart@5db99216]" started-at="2023-04-25T20:37:48 IST" name="UpdateProductsInCartTest" finished-at="2023-04-25T20:38:04 IST" duration-ms="15279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateProductsInCartTest -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:Cart.UpdateProductsInCart@5db99216]" started-at="2023-04-25T20:38:04 IST" name="AM" finished-at="2023-04-25T20:38:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="AC()[pri:0, instance:Cart.UpdateProductsInCart@5db99216]" started-at="2023-04-25T20:38:04 IST" name="AC" finished-at="2023-04-25T20:38:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+        <test-method is-config="true" signature="AT()[pri:0, instance:Cart.UpdateProductsInCart@5db99216]" started-at="2023-04-25T20:38:23 IST" name="AT" finished-at="2023-04-25T20:38:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AT -->
+        <test-method is-config="true" signature="AS()[pri:0, instance:Cart.UpdateProductsInCart@5db99216]" started-at="2023-04-25T20:38:23 IST" name="AS" finished-at="2023-04-25T20:38:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AS -->
+      </class> <!-- Cart.UpdateProductsInCart -->
+      <class name="Cart.AddProductToCartTest">
+        <test-method is-config="true" signature="BC()[pri:0, instance:Cart.AddProductToCartTest@6e57e95e]" started-at="2023-04-25T20:38:04 IST" name="BC" finished-at="2023-04-25T20:38:05 IST" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method signature="addProductToCartTest()[pri:0, instance:Cart.AddProductToCartTest@6e57e95e]" started-at="2023-04-25T20:38:05 IST" name="addProductToCartTest" finished-at="2023-04-25T20:38:23 IST" duration-ms="18336" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to find element with locator By.xpath: //a[@class='a-link-normal sc-product-link' ]/ancestor::div[@data-asin]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //a[@class='a-link-normal sc-product-link' ]/ancestor::div[@data-asin]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy24.getAttribute(Unknown Source)
+at POM.ValidationPage.productValidation(ValidationPage.java:32)
+at Cart.AddProductToCartTest.addProductToCartTest(AddProductToCartTest.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCartTest -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:Cart.AddProductToCartTest@6e57e95e]" started-at="2023-04-25T20:38:05 IST" name="BM" finished-at="2023-04-25T20:38:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:Cart.AddProductToCartTest@6e57e95e]" started-at="2023-04-25T20:38:23 IST" name="AM" finished-at="2023-04-25T20:38:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="AC()[pri:0, instance:Cart.AddProductToCartTest@6e57e95e]" started-at="2023-04-25T20:38:23 IST" name="AC" finished-at="2023-04-25T20:38:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+      </class> <!-- Cart.AddProductToCartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

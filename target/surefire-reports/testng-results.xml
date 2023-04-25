@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-25T22:04:49 IST" name="Suite" finished-at="2023-04-25T22:05:28 IST" duration-ms="39216">
+    <groups>
+    </groups>
+    <test started-at="2023-04-25T22:04:49 IST" name="Test" finished-at="2023-04-25T22:05:28 IST" duration-ms="39216">
+      <class name="Cart.UpdateProductsInCart">
+        <test-method is-config="true" signature="BC()[pri:0, instance:Cart.UpdateProductsInCart@7f3b84b8]" started-at="2023-04-25T22:05:09 IST" name="BC" finished-at="2023-04-25T22:05:10 IST" duration-ms="1419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method signature="UpdateProductsInCartTest()[pri:0, instance:Cart.UpdateProductsInCart@7f3b84b8]" started-at="2023-04-25T22:05:10 IST" name="UpdateProductsInCartTest" finished-at="2023-04-25T22:05:28 IST" duration-ms="17590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateProductsInCartTest -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:Cart.UpdateProductsInCart@7f3b84b8]" started-at="2023-04-25T22:05:10 IST" name="BM" finished-at="2023-04-25T22:05:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method is-config="true" signature="AC()[pri:0, instance:Cart.UpdateProductsInCart@7f3b84b8]" started-at="2023-04-25T22:05:28 IST" name="AC" finished-at="2023-04-25T22:05:28 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:Cart.UpdateProductsInCart@7f3b84b8]" started-at="2023-04-25T22:05:28 IST" name="AM" finished-at="2023-04-25T22:05:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+      </class> <!-- Cart.UpdateProductsInCart -->
+      <class name="Cart.AddProductToCartTest">
+        <test-method is-config="true" signature="BS()[pri:0, instance:Cart.AddProductToCartTest@223d2c72]" started-at="2023-04-25T22:04:49 IST" name="BS" finished-at="2023-04-25T22:04:49 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS -->
+        <test-method is-config="true" signature="BT()[pri:0, instance:Cart.AddProductToCartTest@223d2c72]" started-at="2023-04-25T22:04:49 IST" name="BT" finished-at="2023-04-25T22:04:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BT -->
+        <test-method is-config="true" signature="BC()[pri:0, instance:Cart.AddProductToCartTest@223d2c72]" started-at="2023-04-25T22:04:49 IST" name="BC" finished-at="2023-04-25T22:04:51 IST" duration-ms="2371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BC -->
+        <test-method is-config="true" signature="BM()[pri:0, instance:Cart.AddProductToCartTest@223d2c72]" started-at="2023-04-25T22:04:51 IST" name="BM" finished-at="2023-04-25T22:04:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BM -->
+        <test-method signature="addProductToCartTest()[pri:0, instance:Cart.AddProductToCartTest@223d2c72]" started-at="2023-04-25T22:04:51 IST" name="addProductToCartTest" finished-at="2023-04-25T22:05:09 IST" duration-ms="17350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCartTest -->
+        <test-method is-config="true" signature="AM()[pri:0, instance:Cart.AddProductToCartTest@223d2c72]" started-at="2023-04-25T22:05:09 IST" name="AM" finished-at="2023-04-25T22:05:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AM -->
+        <test-method is-config="true" signature="AC()[pri:0, instance:Cart.AddProductToCartTest@223d2c72]" started-at="2023-04-25T22:05:09 IST" name="AC" finished-at="2023-04-25T22:05:09 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AC -->
+        <test-method is-config="true" signature="AT()[pri:0, instance:Cart.AddProductToCartTest@223d2c72]" started-at="2023-04-25T22:05:28 IST" name="AT" finished-at="2023-04-25T22:05:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AT -->
+        <test-method is-config="true" signature="AS()[pri:0, instance:Cart.AddProductToCartTest@223d2c72]" started-at="2023-04-25T22:05:28 IST" name="AS" finished-at="2023-04-25T22:05:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AS -->
+      </class> <!-- Cart.AddProductToCartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
